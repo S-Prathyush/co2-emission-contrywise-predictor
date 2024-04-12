@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CO2 Emission Prediction</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            max-width: 70%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #00DBDE;
+            background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+            justify-content: center; /* Center the buttons */
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            display: flex;
+            text-align: center; /* Center the h1 tag */
+        }
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center the label and input fields */
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            width: 40%; /* Reduced label width */
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 40%; /* Reduced input width */
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center; /* Center the buttons */
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #FFE53B;
+            background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+            width: 20%; /* Reduced button width */
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            display: flex;
+            text-align: center; /* Center the p tag */
+        }
+
+        .anchor-container {
+            display: flex;
+            justify-content: center; /* Center the anchor tag */
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            background-color: #FF3CAC;
+            background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            width: 50%; /* Reduced button width */
+        }
+
+        a:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>CO2 Emission Prediction</h1>
+    <form method="post">
+        <div class="input-container">
+            <label for="country">Enter the CountryID:</label>
+            <input type="text" id="country" name="country" required>
+        </div>
+        <div class="input-container">
+            <label for="year">Enter the year to predict CO2 emissions:</label>
+            <input type="number" id="year" name="year" required min="2023" max="2035">
+        </div>
+        <div class="button-container">
+            <button type="submit">Predict</button>
+        </div>
+    </form>
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+    {% if predicted_co2 %}
+        <p>Predicted CO2 emission for {{ country }} in {{ year }}: {{ predicted_co2 }} tons per capita</p>
+    {% endif %}
+    <div class="anchor-container">
+        <a href="/">Predict Another</a>
+    </div>
+
+    <h1>Dataset Display</h1>
+    <!-- Display the table -->
+    {{ table | safe }}
+</body>
+</html>

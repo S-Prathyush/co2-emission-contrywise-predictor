@@ -1,0 +1,182 @@
+ISO3,Country,Continent,CountryID
+AFG,Afghanistan,Asia,0
+ALB,Albania,Europe,1
+DZA,Algeria,Africa,2
+AGO,Angola,Africa,3
+ATG,Antigua and Barbuda,America,4
+ARG,Argentina,America,5
+ARM,Armenia,Asia,6
+AUS,Australia,Oceania,7
+AUT,Austria,Europe,8
+AZE,Azerbaijan,Asia,9
+BHS,Bahamas,America,10
+BHR,Bahrain,Asia,11
+BGD,Bangladesh,Asia,12
+BRB,Barbados,America,13
+BLR,Belarus,Europe,14
+BEL,Belgium,Europe,15
+BLZ,Belize,America,16
+BEN,Benin,Africa,17
+BTN,Bhutan,Asia,18
+BOL,Bolivia,America,19
+BIH,Bosnia and Herzegovina,Europe,20
+BWA,Botswana,Africa,21
+BRA,Brazil,America,22
+BRN,Brunei,Asia,23
+BGR,Bulgaria,Europe,24
+BFA,Burkina Faso,Africa,25
+BDI,Burundi,Africa,26
+KHM,Cambodia,Asia,27
+CMR,Cameroon,Africa,28
+CAN,Canada,America,29
+CPV,Cape Verde,Africa,30
+CAF,Central African Republic,Africa,31
+TCD,Chad,Africa,32
+CHL,Chile,America,33
+CHN,China,Asia,34
+COL,Colombia,America,35
+COM,Comoros,Africa,36
+CRI,Costa Rica,America,37
+HRV,Croatia,Europe,38
+CUB,Cuba,America,39
+CYP,Cyprus,Asia,40
+CZE,Czech Republic,Europe,41
+DNK,Denmark,Europe,42
+DJI,Djibouti,Africa,43
+DMA,Dominica,America,44
+DOM,Dominican Republic,America,45
+ECU,Ecuador,America,46
+EGY,Egypt,Africa,47
+SLV,El Salvador,America,48
+GNQ,Equatorial Guinea,Africa,49
+ERI,Eritrea,Africa,50
+EST,Estonia,Europe,51
+SWZ,Eswatini,Africa,52
+ETH,Ethiopia,Africa,53
+FJI,Fiji,Oceania,54
+FIN,Finland,Europe,55
+FRA,France,Europe,56
+GAB,Gabon,Africa,57
+GMB,Gambia,Africa,58
+GEO,Georgia,Asia,59
+DEU,Germany,Europe,60
+GHA,Ghana,Africa,61
+GRC,Greece,Europe,62
+GRD,Grenada,America,63
+GTM,Guatemala,America,64
+GIN,Guinea,Africa,65
+GNB,Guinea-Bissau,Africa,66
+GUY,Guyana,America,67
+HTI,Haiti,America,68
+HND,Honduras,America,69
+HUN,Hungary,Europe,70
+ISL,Iceland,Europe,71
+IND,India,Asia,72
+IDN,Indonesia,Asia,73
+IRN,Iran,Asia,74
+IRQ,Iraq,Asia,75
+IRL,Ireland,Europe,76
+ISR,Israel,Asia,77
+ITA,Italy,Europe,78
+CIV,Ivory Coast,Africa,79
+JAM,Jamaica,America,80
+JPN,Japan,Asia,81
+JOR,Jordan,Asia,82
+KAZ,Kazakhstan,Asia,83
+KEN,Kenya,Africa,84
+KIR,Kiribati,Oceania,85
+KWT,Kuwait,Asia,86
+KGZ,Kyrgyzstan,Asia,87
+LAO,Laos,Asia,88
+LVA,Latvia,Europe,89
+LBN,Lebanon,Asia,90
+LSO,Lesotho,Africa,91
+LBR,Liberia,Africa,92
+LBY,Libya,Africa,93
+LTU,Lithuania,Europe,94
+LUX,Luxembourg,Europe,95
+MDG,Madagascar,Africa,96
+MWI,Malawi,Africa,97
+MYS,Malaysia,Asia,98
+MDV,Maldives,Asia,99
+MLI,Mali,Africa,100
+MLT,Malta,Europe,101
+MRT,Mauritania,Africa,102
+MUS,Mauritius,Africa,103
+MEX,Mexico,America,104
+MDA,Moldova,Europe,105
+MNG,Mongolia,Asia,106
+MNE,Montenegro,Europe,107
+MAR,Morocco,Africa,108
+MOZ,Mozambique,Africa,109
+MMR,Myanmar,Asia,110
+NAM,Namibia,Africa,111
+NRU,Nauru,Oceania,112
+NPL,Nepal,Asia,113
+NLD,Netherlands,Europe,114
+NZL,New Zealand,Oceania,115
+NIC,Nicaragua,America,116
+NER,Niger,Africa,117
+NGA,Nigeria,Africa,118
+PRK,North Korea,Asia,119
+NOR,Norway,Europe,120
+OMN,Oman,Asia,121
+PAK,Pakistan,Asia,122
+PLW,Palau,Oceania,123
+PAN,Panama,America,124
+PNG,Papua New Guinea,Oceania,125
+PRY,Paraguay,America,126
+PER,Peru,America,127
+PHL,Philippines,Asia,128
+POL,Poland,Europe,129
+PRT,Portugal,Europe,130
+QAT,Qatar,Asia,131
+COG,Republic of the Congo,Africa,132
+ROU,Romania,Europe,133
+RUS,Russia,Europe,134
+RWA,Rwanda,Africa,135
+KNA,Saint Kitts and Nevis,America,136
+LCA,Saint Lucia,America,137
+VCT,Saint Vincent and the Grenadines,America,138
+WSM,Samoa,Oceania,139
+STP,São Tomé and Príncipe,Africa,158
+SAU,Saudi Arabia,Asia,140
+SEN,Senegal,Africa,141
+SRB,Serbia,Europe,142
+SYC,Seychelles,Africa,143
+SLE,Sierra Leone,Africa,144
+SGP,Singapore,Asia,145
+SVK,Slovakia,Europe,146
+SVN,Slovenia,Europe,147
+SLB,Solomon Islands,Oceania,148
+ZAF,South Africa,Africa,149
+KOR,South Korea,Asia,150
+ESP,Spain,Europe,151
+LKA,Sri Lanka,Asia,152
+SDN,Sudan,Africa,153
+SUR,Suriname,America,154
+SWE,Sweden,Europe,155
+CHE,Switzerland,Europe,156
+SYR,Syria,Asia,157
+TJK,Tajikistan,Asia,159
+TZA,Tanzania,Africa,160
+THA,Thailand,Asia,161
+TGO,Togo,Africa,162
+TON,Tonga,Oceania,163
+TTO,Trinidad and Tobago,America,164
+TUN,Tunisia,Africa,165
+TUR,Turkey,Asia,166
+TKM,Turkmenistan,Asia,167
+UGA,Uganda,Africa,168
+UKR,Ukraine,Europe,169
+ARE,United Arab Emirates,Asia,170
+GBR,United Kingdom,Europe,171
+USA,United States,America,172
+URY,Uruguay,America,173
+UZB,Uzbekistan,Asia,174
+VUT,Vanuatu,Oceania,175
+VEN,Venezuela,America,176
+VNM,Vietnam,Asia,177
+YEM,Yemen,Asia,178
+ZMB,Zambia,Africa,179
+ZWE,Zimbabwe,Africa,180
